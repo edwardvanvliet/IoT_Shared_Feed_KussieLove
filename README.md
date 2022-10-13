@@ -86,7 +86,7 @@ In Arduino IDE:
 AdafruitIO_Feed *sharedFeed = io.feed("FEED-NAME", "feedOwner");
 ```
 
-6. Upload your code by clicking on the button with the arrow icon to the right. (Top left of your screen).
+6. Upload your code by clicking on the button with the arrow icon pointing to the right. (Top left of your screen).
 
 
 ### Step 7: Upload your code
