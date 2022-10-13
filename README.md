@@ -47,8 +47,20 @@ In Adafruit IO:
 
 ![Image of sharing Feed on the rightin Adafruit IO](https://github.com/edwardvanvliet/IoT_Shared_Feed_KussieLove/blob/main/images/06_Sharing_your_feed_first.png)
 
+3. Don’t forget to change the access level to "Read + Write".
+
 ![Image of sharing Feed in Adafruit IO](https://github.com/edwardvanvliet/IoT_Shared_Feed_KussieLove/blob/main/images/00_Sharing_your_feed.png)
 
+4. Click "Send Invitation".
+
+### Step 5: Accepting invitation
+
+1. Your partner wil receive an invitation in his/her e-mail to join/(re)view your (shared) feed.
+2. Click on the blue button "Review This Feed Share" (as seen below).
+
+![Image of invitation e-mail](https://github.com/edwardvanvliet/IoT_Shared_Feed_KussieLove/blob/main/images/01_Accepting_invitation.png)
+
+3. And then, accept the invitation.
 
 ### Step 6: Adjust your code
 
