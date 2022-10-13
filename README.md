@@ -57,13 +57,12 @@ In Adafruit IO:
 In Arduino IDE:
 1. Go to File > Examples > Adafruit IO Arduino > Adafruitio_06_digital_in.
 
-2. Then click on the tab "config.h" in Arduino IDE, fill in your username and key like the example below.
+2. Then click on the tab "config.h" in Arduino IDE, fill in your username and key like the example below (in point 3).
 
 ```
 #define IO_USERNAME "YOUR USERNAME HERE"
 #define IO_KEY "YOUR KEY HERE"
 ```
-![Image of config.h tab open in Arduino IDE](https://github.com/edwardvanvliet/IoT_AdafruitIOArduino_ColorPicker_Manual_Edward_van_Vliet/blob/main/images/08_Arduino_config.h_opens.png)
 
 3. Below that, you can fill in your WiFi SSID and Password.
 (Advice: Use your phone's hotspot to prevent router problems, so you can use it everywhere. Also prevent using a 5GHz WiFi if possible.)<br>
@@ -72,7 +71,7 @@ In Arduino IDE:
 #define WIFI_SSID "YOUR NETWORK NAME HERE"
 #define WIFI_PASS "YOUR PASSWORD HERE"
 ```
-![Image of WIFI_SSID and WIFI_PASS in code in Arduino IDE](https://github.com/edwardvanvliet/IoT_AdafruitIOArduino_ColorPicker_Manual_Edward_van_Vliet/blob/main/images/09_Enter_IO_USERNAME_IO_KEY_WIFI_SSID_and_WIFI_PASS.png)
+![Image of adjusting Key and WIFI in code in Arduino IDE]()
 
 4. Change the PIN to "D0" and PIXEL_COUNT to the amount of lights your ledstrip have, like the example below.
 
