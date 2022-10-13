@@ -45,17 +45,14 @@ In Adafruit IO:
 1. Go to Dashboards > New Dashboard, give it a name and create dashboard.
 ![Image of dashboard tab in Adafruit IO](https://github.com/edwardvanvliet/IoT_AdafruitIOArduino_ColorPicker_Manual_Edward_van_Vliet/blob/main/images/02_Tab_DASHBOARDS.png)
 2. Go to your newly made dashboard.
-3. Create block using the settings button.
-![Image of new block in Adafruit IO](https://github.com/edwardvanvliet/IoT_AdafruitIOArduino_ColorPicker_Manual_Edward_van_Vliet/blob/main/images/03_Create_a_new_block_Color_Picker.png)
 4. Choose "Colorpicker", and give it the feed name: "color"
 ![Image of feed name "color" in Adafruit IO](https://github.com/edwardvanvliet/IoT_AdafruitIOArduino_ColorPicker_Manual_Edward_van_Vliet/blob/main/images/04_Create_Feed_name_color.png)
 5. Create block.
 6. Choose a color with your colorpicker.
-![Image of how to choose a color in Adafruit IO](https://github.com/edwardvanvliet/IoT_AdafruitIOArduino_ColorPicker_Manual_Edward_van_Vliet/blob/main/images/05_Choose_your_color_gold.png)<br>
-![Image of your chosen color in Adafruit IO](https://github.com/edwardvanvliet/IoT_AdafruitIOArduino_ColorPicker_Manual_Edward_van_Vliet/blob/main/images/06_Color_chosen_gold.png)
 
 
-### Step 5: Adjust your code
+
+### Step 6: Adjust your code
 
 In Arduino IDE:
 1. Go to File > Examples > Adafruit IO Arduino > Adafruitio_14_neopixel.
@@ -84,7 +81,17 @@ In Arduino IDE:
 #define PIXEL_COUNT   18
 ```
 
-### Step 6: Upload your code
+5. Add the the following code to your Arduino. Both need to have this in their file.
+
+```
+#define FEED_OWNER "AIO_FEED_OWNER"
+AdafruitIO_Feed *sharedFeed = io.feed("FEED-NAME", "feedOwner");
+```
+
+6. Upload your code by clicking on the button with the arrow icon to the right. (Top left of your screen).
+
+
+### Step 7: Upload your code
 
 1. First, you could verify the code by clicking on the (when hovering on it - white) button with the check mark icon on it. When you click on it, the button will turn yellow, this means Arduino IDE is verifying/compiling the sketch as you can see below. You can also see what is happening on the right bottom corner: "Compiling sketch..."
 
@@ -106,15 +113,8 @@ As you can see, my mobile hotspot is successfully connected to the device (ESP-2
 
 ### Step 7: Test your code
 
-Change the color, by using the Color Picker on Adafruit IO. You could also use your mobile phone to change the color, try it out! Then you should see your LED-strip change to your chosen color.<br>
+In the Serial Monitor you should see some data, if your partner pushes on the push button.
 
-In the Serial Monitor you can see all the colors (their HEX color codes) you have picked below one another, by using the color picker on your computer:
-
-![Image of colors picked on your laptop or computer](https://github.com/edwardvanvliet/IoT_AdafruitIOArduino_ColorPicker_Manual_Edward_van_Vliet/blob/main/images/15_All_the_colors_you_have_used_stated_in_the_Serial_Monitor.png)
-
-It should also work by using the same color picker on your phone, you should see the same colors (the HEX color codes) you have picked on your phone on your Serial Monitor:
-
-![Image of colors picked on your mobile (smart)phone](https://github.com/edwardvanvliet/IoT_AdafruitIOArduino_ColorPicker_Manual_Edward_van_Vliet/blob/main/images/16_All_colors_you_have_used_on_mobile_stated_in_the_Serial_Monitor.png)<br>
 
 ## Possible Errors:
 
