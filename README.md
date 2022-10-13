@@ -43,13 +43,8 @@ For the LED-strip to properly function, we will first need to install the requir
 
 In Adafruit IO:
 1. Go to Dashboards > New Dashboard, give it a name and create dashboard.
-![Image of dashboard tab in Adafruit IO](https://github.com/edwardvanvliet/IoT_AdafruitIOArduino_ColorPicker_Manual_Edward_van_Vliet/blob/main/images/02_Tab_DASHBOARDS.png)
 2. Go to your newly made dashboard.
-4. Choose "Colorpicker", and give it the feed name: "color"
-![Image of feed name "color" in Adafruit IO](https://github.com/edwardvanvliet/IoT_AdafruitIOArduino_ColorPicker_Manual_Edward_van_Vliet/blob/main/images/04_Create_Feed_name_color.png)
-5. Create block.
-6. Choose a color with your colorpicker.
-
+3. Choose "Colorpicker", and give it the feed name: "color"
 
 
 ### Step 6: Adjust your code
@@ -111,7 +106,7 @@ As you can see, my mobile hotspot is successfully connected to the device (ESP-2
 
 ### Step 7: Test your code
 
-In the Serial Monitor you should see some data, if your partner pushes on the push button.
+In the Serial Monitor you should see some (input) data coming up, if your partner pushes on the push button.
 
 
 ## Possible Errors:
@@ -135,7 +130,5 @@ Apparently according to [this article post about ESP WiFi problems](https://ardu
 
 ![Image of mobile hotspot WiFi connected](https://github.com/edwardvanvliet/IoT_AdafruitIOArduino_ColorPicker_Manual_Edward_van_Vliet/blob/main/images/14_Device_is_connected_to_my_hotspot.png)
 
-So then I tried connecting the ESP-296609 to my mobile hotspot WiFi, on my smartphone. And fortunately, it worked as you can see below!
-In the Serial Monitor you should see all the colors (their HEX color codes) you have picked below one another, by using the color picker, either on your computer or mobile (smart)phone.
-
-![Image of successful connection in Serial Monitor](https://github.com/edwardvanvliet/IoT_AdafruitIOArduino_ColorPicker_Manual_Edward_van_Vliet/blob/main/images/18_Successfully_connected.png)<br>
+So then I tried connecting the ESP-296609 to my mobile hotspot WiFi, on my smartphone. And fortunately, it worked!
+In the Serial Monitor you should see all the input data from your partner coming up, this means that the whole process of sharing a feed worked!
