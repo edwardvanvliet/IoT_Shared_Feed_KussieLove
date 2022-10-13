@@ -61,7 +61,7 @@ In Adafruit IO:
 ![Image of invitation e-mail](https://github.com/edwardvanvliet/IoT_Shared_Feed_KussieLove/blob/main/images/01_Accepting_invitation.png)
 
 3. And then, accept the invitation.
-4. Your shared feed should appear on the Feed overview on Adafruit IO, as seen below.
+4. Your shared feed should appear on the Feed overview of your partner on Adafruit IO, as seen below.
 
 ![Image of shared feed overview](https://github.com/edwardvanvliet/IoT_Shared_Feed_KussieLove/blob/main/images/02_Overview_Feeds.png)
 
@@ -122,9 +122,15 @@ AdafruitIO_Feed *sharedFeed = io.feed("FEED-NAME", "feedOwner");
 
 As you can see, my mobile hotspot is successfully connected to the device (ESP-296609).
 
-### Step 7: Test your code
+### Step 7: Test your code and final result
 
 In the Serial Monitor you should see some (input) data coming up, if your partner pushes on the push button.
+
+So you and your partner should now (both) be able to see the input in Adafruit IO, as seen below.
+
+![Image of shared feed final result graphic](https://github.com/edwardvanvliet/IoT_Shared_Feed_KussieLove/blob/main/images/03_Overview_Data_Graphic.png)
+
+![Image of shared feed final result data](https://github.com/edwardvanvliet/IoT_Shared_Feed_KussieLove/blob/main/images/04_Overview_Data_Value_Time.png)
 
 
 ## Possible Errors:
