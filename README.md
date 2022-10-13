@@ -71,7 +71,7 @@ In Arduino IDE:
 #define WIFI_SSID "YOUR NETWORK NAME HERE"
 #define WIFI_PASS "YOUR PASSWORD HERE"
 ```
-![Image of adjusting Key and WIFI in code in Arduino IDE]()
+![Image of adjusting Key and WIFI in code in Arduino IDE](https://github.com/edwardvanvliet/IoT_Shared_Feed_KussieLove/blob/main/images/05_Connecting_Key_WiFi.png)
 
 4. Change the BUTTON_PIN to "D0", like the example below.
 
