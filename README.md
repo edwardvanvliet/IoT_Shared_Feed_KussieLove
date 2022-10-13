@@ -44,7 +44,7 @@ For the LED-strip to properly function, we will first need to install the requir
 In Adafruit IO:
 1. Go to Feeds > New Feed, give it a name and create the feed.
 2. On Adafruit IO, set your feed to sharing.
-![Image of sharing Feed in Adafruit IO]()
+![Image of sharing Feed in Adafruit IO](https://github.com/edwardvanvliet/IoT_Shared_Feed_KussieLove/blob/main/images/00_Sharing_your_feed.png)
 
 
 ### Step 6: Adjust your code
