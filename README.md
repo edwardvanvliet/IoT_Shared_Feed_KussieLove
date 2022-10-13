@@ -1,6 +1,6 @@
 # IoT_Shared_Feed_KussieLove
 
-# IoT - Adafruit IO - Arduino - Shared Feed KussieLove - Manual - Edward van Vliet (& Sten Kotten)
+# IoT - Adafruit IO - Arduino - Shared Feed KussieLove - Manual - Edward van Vliet & Sten Kotten
 
 # How to send something with a NodeMCU 1.0 to another NodeMCU 1.0, by using Arduino IDE (2.0) software.
 
