@@ -39,7 +39,7 @@ For the LED-strip to properly function, we will first need to install the requir
 ![Image of your key and username in Adafruit IO](https://github.com/edwardvanvliet/IoT_AdafruitIOArduino_ColorPicker_Manual_Edward_van_Vliet/blob/main/images/01_ADAFRUIT_IO_KEY_USERNAME.png)
 4. Copy your key and remember your username for later use.
 
-### Step 4: Creating Adafruit IO Feed
+### Step 4: Creating and sharing your Adafruit IO Feed
 
 In Adafruit IO:
 1. Go to Dashboards > New Dashboard, give it a name and create dashboard.
