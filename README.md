@@ -11,7 +11,7 @@ Last updated 13 October 2022
 Using this manual you'll be able to send something from your NodeMCU 1.0 on Adafruit IO to another NODEMCU 1.0, by using Arduino IDE (2.0) software.
 
 ## Required hardware components
-  - 2x Node MCU 1.0. (You'll need a partner to follow this manual and execute this exercise.)
+  - 2x Node MCU 1.0. (You'll need a partner to follow and finish this manual successfully.)
   - 1x Push button
   - 3x Wire cables
   - 1x USB-C to USB-B microcable (https://www.allekabels.nl/usb-c-kabel/11518/4080378/usb-c-naar-usb-b-micro-kabel.html?gclid=Cj0KCQjw1vSZBhDuARIsAKZlijQllk1tmEmzDAyOpEEB6p9cz1rm71ymovd92VNrhihNyiu-eR0gt8saAvW9EALw_wcB)
