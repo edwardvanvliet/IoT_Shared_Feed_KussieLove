@@ -36,7 +36,7 @@ For the LED-strip to properly function, we will first need to install the requir
 1. Go to https://io.adafruit.com/, click on "Get started for free" and make your account.
 2. When your account is ready, click on "IO" in the navigation menu at the top of the page.
 3. Click on the button with the yellow key icon.
-![Image of your key and username in Adafruit IO](https://github.com/edwardvanvliet/IoT_AdafruitIOArduino_ColorPicker_Manual_Edward_van_Vliet/blob/main/images/01_ADAFRUIT_IO_KEY_USERNAME.png)
+![Image of your key and username in Adafruit IO](https://github.com/edwardvanvliet/IoT_Shared_Feed_KussieLove/blob/main/images/01_ADAFRUIT_IO_KEY_USERNAME.png)
 4. Copy your key and remember your username for later use.
 
 ### Step 4: Creating and sharing your Adafruit IO Feed
@@ -100,7 +100,7 @@ AdafruitIO_Feed *sharedFeed = io.feed("FEED-NAME", "feedOwner");
 
 5. If everything worked as planned, you will see that you're connected in the Serial Monitor. If not, try to use your mobile Hotspot WiFi, that worked for me, as you can see below.
 
-![Image of mobile hotspot WiFi connected](https://github.com/edwardvanvliet/IoT_AdafruitIOArduino_ColorPicker_Manual_Edward_van_Vliet/blob/main/images/14_Device_is_connected_to_my_hotspot.png)
+![Image of mobile hotspot WiFi connected](https://github.com/edwardvanvliet/IoT_Shared_Feed_KussieLove/blob/main/images/14_Device_is_connected_to_my_hotspot.png)
 
 As you can see, my mobile hotspot is successfully connected to the device (ESP-296609).
 
@@ -118,7 +118,7 @@ In my case the problem was the WiFi connection.
 Because at first, I tried using my 5GHz (Home) WiFi throughout this whole process.
 Unfortunately the Serial Monitor kept presenting me dots...
 
-![Image of the connection error dots in the Serial Monitor](https://github.com/edwardvanvliet/IoT_AdafruitIOArduino_ColorPicker_Manual_Edward_van_Vliet/blob/main/images/17_Connection_Error_dots.png)
+![Image of the connection error dots in the Serial Monitor](https://github.com/edwardvanvliet/IoT_Shared_Feed_KussieLove/blob/main/images/17_Connection_Error_dots.png)
 
 The dots that are appearing every 1/2 a second on your Serial Monitor means that your hardware, in this case the NodeMCU 1.0, can't properly connect to a WiFi network.
 That's why it is highly recommended to use an own mobile hotspot, PREVENT using a 5GHz WiFi or hotspot! (According to [this source](https://arduino.stackexchange.com/questions/49370/esp8266-not-connecting-to-wifi) on Arduino Stack Exchange.)
@@ -128,7 +128,7 @@ Seeing the dots keep coming up on my Serial Monitor, I directly knew there was s
 And then I searched about this connection error, and I found out I was not the only one with this problem.
 Apparently according to [this article post about ESP WiFi problems](https://arduino.stackexchange.com/questions/49370/esp8266-not-connecting-to-wifi), the ESP(-296609) is not able to connect with 5Ghz WiFi.
 
-![Image of mobile hotspot WiFi connected](https://github.com/edwardvanvliet/IoT_AdafruitIOArduino_ColorPicker_Manual_Edward_van_Vliet/blob/main/images/14_Device_is_connected_to_my_hotspot.png)
+![Image of mobile hotspot WiFi connected](https://github.com/edwardvanvliet/IoT_Shared_Feed_KussieLove/blob/main/images/14_Device_is_connected_to_my_hotspot.png)
 
 So then I tried connecting the ESP-296609 to my mobile hotspot WiFi, on my smartphone. And fortunately, it worked!
 In the Serial Monitor you should see all the input data from your partner coming up, this means that the whole process of sharing a feed worked!
