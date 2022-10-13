@@ -77,10 +77,10 @@ In Arduino IDE:
 ```
 ![Image of WIFI_SSID and WIFI_PASS in code in Arduino IDE](https://github.com/edwardvanvliet/IoT_AdafruitIOArduino_ColorPicker_Manual_Edward_van_Vliet/blob/main/images/09_Enter_IO_USERNAME_IO_KEY_WIFI_SSID_and_WIFI_PASS.png)
 
-4. Change the PIN to "D5" and PIXEL_COUNT to the amount of lights your ledstrip have, like the example below.
+4. Change the PIN to "D0" and PIXEL_COUNT to the amount of lights your ledstrip have, like the example below.
 
 ```
-#define PIXEL_PIN     D5
+#define PIXEL_PIN     D0
 #define PIXEL_COUNT   18
 ```
 ![Image of PIN and PIXEL_COUNT in code in Arduino IDE](https://github.com/edwardvanvliet/IoT_AdafruitIOArduino_ColorPicker_Manual_Edward_van_Vliet/blob/main/images/10_Set_PIXEL_PIN_5_to_PIXEL_PIN_D5.png)
