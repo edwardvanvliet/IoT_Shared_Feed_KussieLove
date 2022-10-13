@@ -73,11 +73,10 @@ In Arduino IDE:
 ```
 ![Image of adjusting Key and WIFI in code in Arduino IDE]()
 
-4. Change the PIN to "D0" and PIXEL_COUNT to the amount of lights your ledstrip have, like the example below.
+4. Change the BUTTON_PIN to "D0", like the example below.
 
 ```
-#define PIXEL_PIN     D0
-#define PIXEL_COUNT   18
+#define BUTTON_PIN     D0
 ```
 
 5. Add the the following code to your Arduino. Both need to have this in their file.
