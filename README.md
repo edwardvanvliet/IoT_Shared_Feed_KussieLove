@@ -108,9 +108,7 @@ AdafruitIO_Feed *sharedFeed = io.feed("FEED-NAME", "feedOwner");
 
 2. Upload your code by clicking on the button with the arrow icon on the top left of your screen, right next to the check mark icon button (used for verifying).
 
-3. Activate the "Serial Monitor" with the magnifying glass button on the top right. Open the "Serial Monitor" on the bottom of your screen.
-
-![Image of opening the Serial Monitor in Arduino IDE](https://github.com/edwardvanvliet/IoT_Shared_Feed_KussieLove/blob/main/images/12_Activate_Open_the_Serial_Monitor.png)
+3. Activate the "Serial Monitor" with the magnifying glass button on the top right. The Serial Monitor will appear on the bottom of your screen.
 
 4. Change the baud rate in the Serial Monitor to 115200 baud.
 
@@ -122,7 +120,7 @@ AdafruitIO_Feed *sharedFeed = io.feed("FEED-NAME", "feedOwner");
 
 As you can see, my mobile hotspot is successfully connected to the device (ESP-296609).
 
-### Step 7: Test your code and final result
+### Step 8: Test your code and final result
 
 In the Serial Monitor you should see some (input) data coming up, if your partner pushes on the push button.
 
