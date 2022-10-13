@@ -12,7 +12,7 @@ Using this manual you'll be able to send something from your NodeMCU 1.0 on Adaf
 
 ## Required hardware components
   - 2x Node MCU 1.0. (You'll need a partner to follow this manual and execute this exercise.)
- (- 1x Push button)
+  - 1x Push button
   - 3x Wire cables
   - 1x USB-C to USB-B microcable (https://www.allekabels.nl/usb-c-kabel/11518/4080378/usb-c-naar-usb-b-micro-kabel.html?gclid=Cj0KCQjw1vSZBhDuARIsAKZlijQllk1tmEmzDAyOpEEB6p9cz1rm71ymovd92VNrhihNyiu-eR0gt8saAvW9EALw_wcB)
   
@@ -42,9 +42,9 @@ For the LED-strip to properly function, we will first need to install the requir
 ### Step 4: Creating and sharing your Adafruit IO Feed
 
 In Adafruit IO:
-1. Go to Dashboards > New Dashboard, give it a name and create dashboard.
-2. Go to your newly made dashboard.
-3. Choose "Colorpicker", and give it the feed name: "color"
+1. Go to Feeds > New Feed, give it a name and create the feed.
+2. On Adafruit IO, set your feed to sharing.
+![Image of sharing Feed in Adafruit IO]()
 
 
 ### Step 6: Adjust your code
