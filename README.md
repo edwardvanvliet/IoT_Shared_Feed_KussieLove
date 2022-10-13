@@ -61,6 +61,9 @@ In Adafruit IO:
 ![Image of invitation e-mail](https://github.com/edwardvanvliet/IoT_Shared_Feed_KussieLove/blob/main/images/01_Accepting_invitation.png)
 
 3. And then, accept the invitation.
+4. Your shared feed should appear on the Feed overview on Adafruit IO, as seen below.
+
+![Image of shared feed overview](https://github.com/edwardvanvliet/IoT_Shared_Feed_KussieLove/blob/main/images/02_Overview_Feeds.png)
 
 ### Step 6: Adjust your code
 
