@@ -92,11 +92,11 @@ AdafruitIO_Feed *sharedFeed = io.feed("FEED-NAME", "feedOwner");
 
 3. Activate the "Serial Monitor" with the magnifying glass button on the top right. Open the "Serial Monitor" on the bottom of your screen.
 
-![Image of opening the Serial Monitor in Arduino IDE](https://github.com/edwardvanvliet/IoT_AdafruitIOArduino_ColorPicker_Manual_Edward_van_Vliet/blob/main/images/12_Activate_Open_the_Serial_Monitor.png)
+![Image of opening the Serial Monitor in Arduino IDE](https://github.com/edwardvanvliet/IoT_Shared_Feed_KussieLove/blob/main/images/12_Activate_Open_the_Serial_Monitor.png)
 
 4. Change the baud rate in the Serial Monitor to 115200 baud.
 
-![Image of changing baud rate to 115200 baud in Arduino IDE](https://github.com/edwardvanvliet/IoT_AdafruitIOArduino_ColorPicker_Manual_Edward_van_Vliet/blob/main/images/13_Set_to_115200_baud.png)
+![Image of changing baud rate to 115200 baud in Arduino IDE](https://github.com/edwardvanvliet/IoT_Shared_Feed_KussieLove/blob/main/images/13_Set_to_115200_baud.png)
 
 5. If everything worked as planned, you will see that you're connected in the Serial Monitor. If not, try to use your mobile Hotspot WiFi, that worked for me, as you can see below.
 
